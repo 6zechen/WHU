@@ -1,0 +1,19 @@
+<!--pages/list/list.wxml-->
+<view style='display:flex;justify-content:flex-start;flex-direction:column'>
+<text class='headline'>小武交友</text>
+<view class='navigation'>
+<button class='button1' bindtap='enshrine_ed'>我收藏的人</button>
+<button class='button2' bindtap='enshrine'>收藏我的人</button>
+</view>
+<scroll-view class='container'>
+<block wx:for="{{received}}" wx:for-item="i">
+<view class='box'>
+
+<view class='box-icon'>
+<view class='box-latest'>{{messages[i-1].message}}</view>
+</view>
+</view>
+
+</block>
+</scroll-view>
+</view>

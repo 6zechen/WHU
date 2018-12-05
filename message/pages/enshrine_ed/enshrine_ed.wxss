@@ -1,0 +1,92 @@
+page{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.headline{
+position:  absolute;
+top:70rpx;
+left:38%;
+}
+.navigation{
+  height: 220rpx;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color:  rgb(215, 235, 252);
+
+}
+.button1{
+  top:140rpx;
+  width: 250rpx;
+  height: 60rpx;
+  padding-top: 0rpx;
+  text-align: center;
+  margin-left: 10rpx;
+  position:  relative;
+  font-size: smaller;
+  font-weight: 2;
+  border-radius: 40rpx;
+  border: 0rpx ;
+  border-color:  rgb(215, 235, 252);
+  background-color: unset;
+}
+
+.button2{
+  top:140rpx;
+  width: 250rpx;
+  height: 60rpx;
+  padding-top: 0rpx;
+  text-align: center;
+  margin-right: 10rpx;
+  position:  relative;
+  font-size: smaller;
+  font-weight: 2;
+  border-radius: 40rpx;
+  border: 0rpx ;
+  border-color:  rgb(215, 235, 252);
+  background-color: unset;
+}
+
+.container{
+  height: 100%;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0rpx;
+}
+
+.box{
+  background-color:aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 1000rpx;
+  height: 140rpx;
+  border-bottom:  solid rgb(250, 229, 195) 2rpx;
+}
+
+.box-icon{
+  margin-top:20rpx;
+  height: 100rpx;
+  width: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color:  aquamarine;
+  margin-left: 10rpx;
+  border-radius: 28.2px;
+}
+
+.box-sign{
+  width: 20;
+}
+
+.box-latest{
+  width: 100%;
+  position: relative;
+  left: 130rpx;
+  top:50rpx;
+}
