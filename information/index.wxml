@@ -1,0 +1,38 @@
+<view class="head"></view>
+<view class="edit"><image src="../../images/iconfont-edit.png" /></view>
+<view class="infobox">
+    <image src="http://www.jituwang.com/uploads/allimg/151003/258203-1510030RP894.jpg" />
+    <view>略略略</view>
+    <view>蓝天白云，晴空万里</view>
+    <view class="idbox">
+        <image src="../../images/star2.png" />
+        12345678
+    </view>
+    <view class="starbox">
+        <image src="../../images/id card.png" />  
+        射手座
+    </view>
+    <view class="habitbox">
+        <view class="box1">
+            <view>我的爱好</view>
+            <image src="../../images/aui-icon-plus.png" />
+        </view>
+        <view class="box2">
+            <view class="box1">
+                <view class="habit">游泳111</view>
+                <view class="habit">游泳2</view>
+                <view class="habit">游泳111111</view>
+                <view class="habit">游泳22</view>
+                <view class="habit">游泳</view>
+                <view class="habit">游泳</view>
+                <view class="habit">游泳</view>
+                <view class="habit">游泳</view>
+            </view>
+            <view class="habitbtn"><image src="../../images/cc-heart.png" /></view>
+        </view>
+    </view>
+    <view class="motionbox">
+        <view >性格</view>
+        <view >点击测试性格></view>
+    </view>
+</view>
